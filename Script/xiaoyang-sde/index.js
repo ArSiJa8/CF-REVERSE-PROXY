@@ -11,13 +11,13 @@
 A CF-REVERSE-PROXY Script For Cloudflare Workers at https://github.com/OshekharO/CF-REVERSE-PROXY */
 
 // Website you intended to retrieve for users.
-const upstream = 'uncoder.eu.org';
+const upstream = 'neal.fun';
 
 // Custom pathname for the upstream website.
-const upstream_path = '/';
+const upstream_path = '/infinite-craft';
 
 // Website you intended to retrieve for users using mobile devices.
-const upstream_mobile = 'uncoder.eu.org';
+const upstream_mobile = 'neal.fun';
 
 // Countries and regions where you wish to suspend your service.
 const blocked_region = ['CN', 'KP', 'SY', 'PK', 'CU'];
